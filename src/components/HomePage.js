@@ -262,12 +262,87 @@ const HomePage = () => {
             </div>
             <div className="col-6">
               <div className="bartender">
-                <div>
-                  
+              <span class="txt style1 lineHeight wow fadeIn" data-wow-delay="0.3s"> pha chế </span>
+              </div>
+            </div>
+            <div className="col-6">
+              <div className="menu">
+              <span class="txt style1 lineHeight wow fadeIn" data-wow-delay="0.3s"> Thực đơn </span>
+              </div>
+            </div>
+            <div className="col-12">
+              <div className="news">
+              <div class="txtLeft ">
+                <div class="lineHeight">
+                <h6 class="wow slideInLeft" data-wow-delay="0.3s" data-wow-duration="1s"><a href="http://congcaphe.com/posts/tin-tuc">tin tức nổi bật</a></h6>
+
+                <p class="wow slideInRight" data-wow-delay="0.3s" data-wow-duration="1s">"Lao động hăng say, tình hay sẽ đến"</p>
+
+                <p class="wow slideInRight" data-wow-delay="0.3s" data-wow-duration="1s">Cộng chúc bạn một ngày&nbsp;mới thật nhiều năng lượng để hoàn thành công việc thật tốt!</p>
+                </div>
                 </div>
               </div>
             </div>
-            <div className="col-6"></div>
+            <div className="col-12">
+              <div className="reviews">
+              <div class="txtCenter ">
+                <div class="lineHeight">
+                <h6 class="wow slideInRight" data-wow-delay="0.3s" data-wow-duration="1s"><a href="http://congcaphe.com/career">tuyển dụng</a></h6>
+
+                <p class="wow slideInLeft" data-wow-delay="0.3s" data-wow-duration="1s">Gia nhập gia đình Cộng ngay hôm nay.</p>
+
+                <p class="wow slideInLeft" data-wow-delay="0.3s" data-wow-duration="1s">Đọc thông tin tại đây để biết thêm chi tiết.</p>
+
+                <p class="wow slideInLeft" data-wow-delay="0.3s" data-wow-duration="1s">Cộng nhiệt liệt chào mừng.</p>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="pad row">
+            <div className="col-3">
+              <div className="col-items">
+              <h6>Tin Tức</h6> 
+              <div className="items-list">
+                <a>
+                Về Chúng Tôi
+                </a>
+              </div>
+              </div>
+            </div>
+            <div className="col-3">
+            <div className="col-items">
+              <h6>Cửa hàng</h6> 
+              <div className="items-list">
+                <a>
+                Danh Sách Cửa Hàng
+                </a>
+              </div>
+              </div>
+            </div>
+            <div className="col-3">
+            <div className="col-items">
+              <h6>Đồ uống</h6> 
+              <div className="items-list">
+                <a>
+                Hôm Nay Cộng Có
+                </a>
+              </div>
+              </div>
+            </div>
+            <div className="col-3">
+            <div className="col-items">
+              <h6>Chính Sách</h6> 
+              <div className="items-list">
+                <a>
+              Chính Sách Bảo Mật
+                </a>
+                <a>
+                Điều Khoản Sử Dụng
+                </a>
+              </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
