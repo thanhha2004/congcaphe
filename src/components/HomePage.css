@@ -24,6 +24,7 @@
     background-size: cover;
     height: 485px;
     z-index: 1;
+    margin-bottom: 16px;
     
   }
   .live-plus-color {
@@ -50,12 +51,154 @@
     transition: all 0.7s ease;
   }
   .pad {
-    padding: 0px 185px;
+    padding: 0px 120px;
   }
   .bartender{
-      background-image:url(https://cong-news.appwifi.com/wp-content/uploads/2019/01/banner1.jpg) ;
-      background-repeat: repeat;
+      background-image:url(https://cong-news.appwifi.com/wp-content/uploads/2019/05/11copy.jpg) ;
+      background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
-      height: 485px;
+      height: 370px;
+      display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.7s ease;
   }
+  .style1 {
+    padding: 6px 0;
+    min-width: 60%;
+    background: rgba(255, 241, 208, 0.9);
+    display: inline-block;
+    text-transform: uppercase;
+    color: #555555;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'BeauLuloClean-OneBold';
+  }
+.lineHeight {
+  line-height: 1.7;
+}
+.menu:hover, .bartender:hover {
+  span.txt.style1{
+    transform: translateY(-5px);
+  }
+}
+.menu {
+  background-image:url(https://cong-news.appwifi.com/wp-content/uploads/2020/07/Thu%CC%9B%CC%A3c-%C4%91o%CC%9Bn-copy.jpg) ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 370px;
+  display: flex;
+align-items: center;
+justify-content: center;
+transition: all 0.7s ease;
+}
+.news {
+  background-image:url(https://cong-news.appwifi.com/wp-content/uploads/2019/05/Pha-Che.jpg) ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 370px;
+  display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 16px;
+margin-bottom: 16px;
+}
+.txtLeft {
+  display: flex;
+  width: calc(50% - 15px);
+  height: 100%;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: rgba(255, 241, 208, 0.9);
+  padding: 0 15px;
+  transform: translateX(-54%);
+  transition: all 0.7s ease;
+}
+.news:hover {
+  .txtLeft {
+    transform: translateX(54%);
+  }
+}
+.pad h6 {
+  font-size: 20px;
+  color: #555555;
+  font-family: 'BeauLuloClean-OneBold';
+  text-transform: uppercase;
+  position: relative;
+  margin-bottom: 20px;
+}
+.pad h6 a {
+  color: black;
+  text-decoration: none;
+}
+.txtLeft p {
+  font-weight: 300;
+    font-size: 16px;
+}
+.reviews {
+  background-image:url(https://cong-news.appwifi.com/wp-content/uploads/2019/06/tuyen-Dung-2.jpg) ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 370px;
+  display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 16px;
+}
+.txtCenter {
+  -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: rgba(255, 241, 208, 0.9);
+    min-width: 50%;
+    padding: 23px 15px;
+    -webkit-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+.reviews:hover {
+  .txtCenter{
+    transform: translateY(-5px);
+  }
+}
+.col-items {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start
+}
+.col-items h6 {
+  font-size: 16px;
+  color: #3c5e2c;
+  text-transform: uppercase;
+  font-family: 'BeauLuloClean-OneBold';
+  margin-bottom: 10px;
+}
+.col-items a {
+  color: #232323;
+  font-size: 16px;
+  padding: 3px 0;
+  display: inline-block;
+  text-decoration: none;
+}
+.col-items a:hover {
+  color: #3c5e2c !important;
+    padding-left: 7px;
+    white-space: nowrap;
+}
+.items-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+}
