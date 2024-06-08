@@ -1,9 +1,10 @@
 /* src/components/Header.css */
 .header {
+  border-bottom: 1px black solid;
   display: flex;
   justify-content: center;
   gap: 85px;
-  padding: 35px 90px 0px 90px;
+  padding: 35px 90px 16px 90px;
   align-items: center;
 }
 .header img {

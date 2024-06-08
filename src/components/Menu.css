@@ -1,0 +1,90 @@
+.catItem {
+  cursor: pointer;
+}
+.select-menu {
+  top: 30px;
+    position: sticky;
+    left: 50px;
+    width: 30%;
+    text-align: left;
+    float: left;
+    z-index: 100;
+}
+.catItem:hover {
+  color: #3c5e2c;
+  position: relative;
+}
+.catItem:hover:before {
+  content: '';
+  height: 2px;
+  width: 15px;
+  background: #3c5e2c;
+  position: absolute;
+  top: 50%;
+  left: -25px;
+  transform: translateY(-50%);
+  opacity: 1;
+}
+.product {
+  padding-top: 16px;
+  padding-bottom: 55px;
+}
+.block_menu_item_title {
+  font-family: 'BeauLuloClean-OneBold';
+    font-size: 20px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+    padding-top: 30px;
+    color: #555;
+}
+#list-example {
+  padding-top: 30px;
+}
+.shop-product {
+  padding-left: 30%;
+    width: 100%;
+    position: relative;
+}
+.text {
+  position: relative;
+  text-align: justify;
+}
+.list-product::before {
+  content: '';
+  position: absolute;
+  left: -35px;
+  width: 1px;
+  height: 100%;
+  top: 30px;
+  background: #bebfc0;
+}
+ .itemProducts {
+  cursor: pointer;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.img-product {
+  width: 225px;
+  height: 225px;
+}
+.img-product img {
+  width: 225px;
+  height: 225px;
+  object-fit: cover;
+}
+.itemTitle {
+  font-family: 'BeauLuloClean-OneBold';
+  font-size: 13px;
+  margin-bottom: 5px;
+  text-transform: capitalize;
+}
+.price {
+  color: #3c5e2c;
+  font-size: 18px;
+  font-weight: bold;
+}
+.img-product img:hover {
+  opacity: 0.5;
+}
