@@ -1,9 +1,13 @@
 // src/components/HomePage.js
 import React from "react";
 import "./HomePage.css";
-
+import { useNavigate } from 'react-router-dom';
 const HomePage = () => {
-  return (
+  const navigate = useNavigate();
+  const handleNavigate = () => {
+    navigate('/menu');
+};
+ return (
     <div className="homepage">
       <div
         id="carouselExampleInterval"
@@ -266,7 +270,7 @@ const HomePage = () => {
               </div>
             </div>
             <div className="col-6">
-              <div className="menu">
+              <div  className="menu" onClick={handleNavigate}>
               <span class="txt style1 lineHeight wow fadeIn" data-wow-delay="0.3s"> Thực đơn </span>
               </div>
             </div>
