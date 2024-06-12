@@ -7,6 +7,9 @@ const HomePage = () => {
   const handleNavigate = () => {
     navigate('/menu');
 };
+const story = () => {
+  navigate('/story');
+};
  return (
     <div className="homepage">
       <div
@@ -261,7 +264,7 @@ const HomePage = () => {
           <div className="row pad">
             <div className="col-12">
               <div className="live-plus">
-                <div className="live-plus-color">câu chuyện cộng</div>
+                <div className="live-plus-color" onClick={story}>câu chuyện cộng</div>
               </div>
             </div>
             <div className="col-6">

@@ -1,8 +1,77 @@
 /* src/components/Footer.css */
-footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #333;
-    color: #fff;
-  }
-  
+.listSocial {
+  border-top: 1px solid #3c5e2c;
+  padding: 20px 0;
+  text-align: start;
+}
+.listSocial h6 {
+  font-size: 13px;
+  color: #3c5e2c;
+  text-transform: uppercase;
+  font-family: 'BeauLuloClean-OneBold';
+  margin-bottom: 10px;
+}
+.contact p {
+  margin-top: -9px;
+  color: #232323;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.contact span {
+  color: #b4b9bc;
+  font-size: 13px;
+}
+.contact input:focus {
+  outline: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-color: #3c5e2c;
+}
+.contact button {
+  padding: 0 0px;
+  background-color: #3c5e2c;
+  border: none;
+  color: #fff;
+  text-transform: uppercase;
+  width: 100px;
+  margin-bottom: 0;
+  line-height: 35px;
+  font-size: 16px;
+  border-radius: 0;
+}
+.listSocial-c {
+  display: flex;
+  gap: 8px
+}
+.review-footer img {
+  width: 200px;
+  height: 75px;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.copyright {
+  font-size: 12px;
+  border-top: 1px solid #232323;
+  padding-top: 25px;
+  padding-bottom: 20px;
+  background: #4c5b29;
+  color: #fff;
+  text-align: start;
+}
+.copyright a {
+  color: #fff;
+  text-decoration: none;
+}
+.copyright .txtCafeCong {
+  display: inline-block;
+  margin: 0;
+  font-size: 15px;
+  font-family: 'BeauLuloClean-OneBold';
+}
+.copyright .col-12 {
+  display: flex;
+  flex-direction: column;
+}

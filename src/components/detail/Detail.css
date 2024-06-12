@@ -1,0 +1,70 @@
+.productsWrap {
+  padding: 50px 0;
+  border-top: 1px solid #bebfc0;
+}
+.product-detail {
+  display: flex;
+  gap: 32px;
+  margin-bottom: 16px;
+}
+.titlePrd {
+  font-family: 'BeauLuloClean-OneBold';
+  font-size: 20px;
+  margin-bottom: 5px;
+  text-transform: capitalize;
+  color: #555;
+}
+.img-product {
+  width: 450px;
+  height: 450px;
+}
+.img-product img {
+width: 450px;
+height: 450px;
+object-fit: cover;
+}
+.description-product {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+.product-small {
+  display: flex;
+  align-items: start;
+  cursor: pointer;
+}
+.product-small:hover, .image-equal:hover {
+  opacity: 0.5;
+}
+.product-small img {
+  width: 138px;
+  height: 138px;
+}
+.relatedPrd {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: start;
+}
+.relatedPrd h4 {
+  font-family: 'BeauLuloClean-OneBold';
+  font-size: 18px;
+  margin-bottom: 5px;
+  text-transform: capitalize;
+  color: #555;
+  padding: 30px 0px 24px;
+}
+.product-euqal {
+  display: flex;
+  flex-direction: column;
+  gap: 16px
+}
+.image-equal {
+  width: 290px;
+  height: 290px;
+  cursor: pointer;
+}
+.image-equal img {
+  width: 290px;
+  height: 290px;
+  object-fit: cover;
+}
