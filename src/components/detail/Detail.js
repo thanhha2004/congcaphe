@@ -8,7 +8,7 @@ const Detail = () => {
         <div className="row pad">
           <div className="col-12">
             <div className="product-detail">
-              <div className="img-product">
+              <div className="detail-img-product">
                 <img src="https://cong-news.appwifi.com/wp-content/uploads/2024/04/Tr%C3%A0-g%E1%BB%ABng.png"  alt=""/>
               </div>
               <div className="description-product">
