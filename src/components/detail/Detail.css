@@ -14,11 +14,11 @@
   text-transform: capitalize;
   color: #555;
 }
-.img-product {
+.detail-img-product {
   width: 450px;
   height: 450px;
 }
-.img-product img {
+.detail-img-product img {
 width: 450px;
 height: 450px;
 object-fit: cover;
